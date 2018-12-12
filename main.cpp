@@ -90,8 +90,8 @@ int main(){
     double thetaProjectedF = m * thetaFinal;
 
     // print the results
-    cout << "Projected Initial Position: " << xInit << ", "<< yInit << ", " << thetaInit << endl; 
-    cout << "Projected Final Position: " << xFinal << ", "<< yFinal << ", " << thetaFinal << endl; 
+    cout << "Projected Initial Position: " << xProjectedI << ", "<< yProjectedI << ", " << thetaProjectedI << endl; 
+    cout << "Projected Final Position: " << xProjectedF << ", "<< yProjectedF << ", " << thetaProjectedF << endl; 
     
     return 0;
 }
